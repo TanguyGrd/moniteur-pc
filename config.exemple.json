@@ -1,0 +1,26 @@
+{
+  "_aide": "Copie automatique vers config.json au 1er lancement. Modifie config.json (pas ce fichier) puis relance l'appli.",
+
+  "_aide_cle": "Laisse vide si tu utilises la variable d'environnement ANTHROPIC_API_KEY (recommande).",
+  "anthropic_api_key": "",
+  "model": "claude-sonnet-5-5",
+  "effort": "medium",
+
+  "refresh_seconds": 1.0,
+  "always_on_top": true,
+  "opacity": 1.0,
+  "drives": ["C", "D"],
+  "sound_on_alert": true,
+
+  "alert_disk_free_gb": { "C": 15, "D": 20 },
+  "alert_ram_percent": 90,
+  "alert_cpu_percent": 95,
+  "alert_cpu_sustained_s": 20,
+  "alert_cpu_temp_c": 90,
+  "alert_gpu_temp_c": 83,
+  "alert_vram_percent": 95,
+  "alert_process_cpu_percent": 50,
+  "alert_process_sustained_s": 20,
+  "alert_process_ram_gb": 6,
+  "alert_cooldown_s": 300
+}
